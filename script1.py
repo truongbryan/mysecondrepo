@@ -7,10 +7,10 @@ def calcTotal(amt,tax,myname):
     print(f"{myname}, the total of your purchase is ${mytotal:,.2f}")
 
 myname = 'Johnny'
-price = 20469.10
+price = 1560
 thetax = 0.0825
 
-calcTotal(thetax,price,myname)
+calcTotal(price,thetax,myname)
 
 
 ####  PROBLEM 2  ####
