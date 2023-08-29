@@ -2,28 +2,24 @@
 # Correc the mistakes and produce the following output:
 # Johnny, the total of your purchase is $1,688.70
 
-def calcTotal(amt,tax,name):
+def calcTotal(amt,tax,myname):
     mytotal = amt * (1+tax)
-    print(f"{myname}, the total of your purchase is ${total:,.2f}")
+    print(f"{myname}, the total of your purchase is ${mytotal:,.2f}")
 
 myname = 'Johnny'
-price = 1,560
-thetax = 8.25%
+price = 20469.10
+thetax = 0.0825
 
-calcTotal(thetax,price,name)
-
-
-
+calcTotal(thetax,price,myname)
 
 
 ####  PROBLEM 2  ####
 # print out ONLY the integers in the list below #
 list1 = [1,'two',3.2,'four',5]
 
-for i in list1:
-    print(i)
-
-
+for value in list1:
+    if isinstance(value, int):
+        print(value)
 
 
 #### PROBLEM 3 ####
