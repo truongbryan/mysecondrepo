@@ -18,7 +18,7 @@ calcTotal(price,thetax,myname)
 list1 = [1,'two',3.2,'four',5]
 
 for value in list1:
-    if isinstance(value, int):
+    if type(value) == int:
         print(value)
 
 
